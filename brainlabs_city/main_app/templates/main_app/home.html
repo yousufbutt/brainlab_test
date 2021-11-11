@@ -1,0 +1,19 @@
+{% load static %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" type='text/css' href="{% static 'css/home.css' %}">
+<script src="{% static 'js/home.js' %}"></script>
+
+
+<body>
+    <div class = "container">
+
+        <div id = "CountryContainer" country = "{{country}}" position = {{position}}> Input Capital City for {{country}}: </div>
+        <div>  <input id = "CapitalInput" placeholder="Enter Capital City"> </input> </div>
+        <div id = "Answer"></div>
+        <div><button id = "CheckAnswer">Check Answer</button></div>
+        
+    </div>
+
+
+</body>

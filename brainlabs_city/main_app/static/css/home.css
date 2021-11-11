@@ -1,0 +1,22 @@
+body {
+    background-color: slategray;
+}
+
+#CountryContainer {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    font-size: 5rem;
+}
+
+#CapitalInput{
+    width: 20%;
+    
+}
+
+#Answer {
+    margin-bottom: 3rem;
+}
+
+.container{
+    text-align: center;
+}
